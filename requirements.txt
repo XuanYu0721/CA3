@@ -1,5 +1,3 @@
-<<<<<<< HEAD
+HEAD
 gunicorn
-=======
-
->>>>>>> 4f9e75f502498fb29cd00b0753de6d25e9ec9068
+4f9e75f502498fb29cd00b0753de6d25e9ec9068
