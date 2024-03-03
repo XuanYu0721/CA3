@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>EU Countries Economic Data</title>
+    </head>
+    <body>
+        <h1>EU Countries Data</h1>
+        
+        {% for row in rows %}
+        <p>
+            The population situation: 
+            <b><a href="{{ url_for('show', CountryID=row['CountryID']) }}">{{ row["CountryName"] }}</a></b> | 
+            Population 2000: {{ row["Population2000"] }}millions | 
+            Population 2022: {{ row["Population2022"] }}millions | 
+            Average Annual Growth: {{ row["AvgAnnualGrowth"] }}% | 
+            Age 0-14: {{ row["Age0_14"] }}% | 
+            Age 15-64: {{ row["Age15_64"] }}% | 
+            Age 65+: {{ row["Age65Plus"] }}% | 
+        </p>
+        {% endfor %}
+    </body>
+</html>
