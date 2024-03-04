@@ -1,1 +1,14 @@
-gunicorn
+click==8.1.7
+Faker==18.13.0
+Flask==2.2.5
+gunicorn==21.2.0
+importlib-metadata==6.7.0
+itsdangerous==2.1.2
+Jinja2==3.1.3
+MarkupSafe==2.1.5
+packaging==23.2
+python-dateutil==2.9.0.post0
+six==1.16.0
+typing_extensions==4.7.1
+Werkzeug==2.2.3
+zipp==3.15.0
